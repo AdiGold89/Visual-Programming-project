@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LSC="http:///schemas/LSC/_gA7bMIMUEeW1kpBT4I0A6w/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmlns:visual="http:///schemas/visual/_gCndQIMUEeW1kpBT4I0A6w/0" xsi:schemaLocation="http:///schemas/LSC/_gA7bMIMUEeW1kpBT4I0A6w/0 platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8ktjEeOIUs0KoNYPKA http:///schemas/visual/_gCndQIMUEeW1kpBT4I0A6w/0 platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgktjEeOIUs0KoNYPKA">
+  <uml:Model xmi:id="_st6sMJq_EeqHEMN7vqK8zg" name="PatientMedicalCare">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_subpkJq_EeqHEMN7vqK8zg" name="Diagram1">
+      <ownedAttribute xmi:id="_vhvesZq_EeqHEMN7vqK8zg" name="Env" type="_vhvesJq_EeqHEMN7vqK8zg"/>
+      <ownedAttribute xmi:id="_42EJwZq_EeqHEMN7vqK8zg" name="Screen" type="_42EJwJq_EeqHEMN7vqK8zg"/>
+      <ownedAttribute xmi:id="_RrjsIZ2_Eeqt0rI1Pp0uyQ" name="Mode" type="_RrjsIJ2_Eeqt0rI1Pp0uyQ"/>
+      <ownedAttribute xmi:id="_sbOYoZ3_Eeqt0rI1Pp0uyQ" name="Component" type="_sbOYoJ3_Eeqt0rI1Pp0uyQ"/>
+      <ownedAttribute xmi:id="_gKU7EZ_pEeqYV7rdlDew7A" name="Button" type="_gKU7EJ_pEeqYV7rdlDew7A"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_u_6kAJq_EeqHEMN7vqK8zg" name="LSC1">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GnzbsZ_sEeqYV7rdlDew7A" name="Press-InvocationStart" covered="_urdYsJ25Eeqt0rI1Pp0uyQ" message="_Gny0oJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Gnzbs5_sEeqYV7rdlDew7A" name="Press-ExecutionStart" covered="_EEqJgJ_sEeqYV7rdlDew7A" message="_Gny0oJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_GnzbtZ_sEeqYV7rdlDew7A" name="Press-invocationBody" covered="_urdYsJ25Eeqt0rI1Pp0uyQ" finish="_Gn0Cw5_sEeqYV7rdlDew7A" start="_GnzbsZ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Gn0CwJ_sEeqYV7rdlDew7A" name="Press-executionBody" covered="_EEqJgJ_sEeqYV7rdlDew7A" finish="_Gn0CwZ_sEeqYV7rdlDew7A" start="_Gnzbs5_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Gn0CwZ_sEeqYV7rdlDew7A" name="Press-ExecutionFinish" covered="_EEqJgJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Gn0Cw5_sEeqYV7rdlDew7A" name="Press-InvocationFinish" covered="_urdYsJ25Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_N6FWgJ_sEeqYV7rdlDew7A" name="SYNC" covered="_urdYsJ25Eeqt0rI1Pp0uyQ _EEqJgJ_sEeqYV7rdlDew7A _MULIoJ_sEeqYV7rdlDew7A _glZmIJ_sEeqYV7rdlDew7A _jWfNsJ_sEeqYV7rdlDew7A">
+          <invariant xmi:id="_N6F9kZ_sEeqYV7rdlDew7A" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_N6F9kp_sEeqYV7rdlDew7A">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YOm6UZ_sEeqYV7rdlDew7A" name="ChangeScreen-InvocationStart" covered="_MULIoJ_sEeqYV7rdlDew7A" message="_YOmTQJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YOm6U5_sEeqYV7rdlDew7A" name="ChangeScreen-ExecutionStart" covered="_MULIoJ_sEeqYV7rdlDew7A" message="_YOmTQJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_YOnhYZ_sEeqYV7rdlDew7A" name="ChangeScreen-invocationBody" covered="_MULIoJ_sEeqYV7rdlDew7A" finish="_YOnhZZ_sEeqYV7rdlDew7A" start="_YOm6UZ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_YOnhYp_sEeqYV7rdlDew7A" name="ChangeScreen-executionBody" covered="_MULIoJ_sEeqYV7rdlDew7A" finish="_YOnhY5_sEeqYV7rdlDew7A" start="_YOm6U5_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YOnhY5_sEeqYV7rdlDew7A" name="ChangeScreen-ExecutionFinish" covered="_MULIoJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YOnhZZ_sEeqYV7rdlDew7A" name="ChangeScreen-InvocationFinish" covered="_MULIoJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rfNoUZ_sEeqYV7rdlDew7A" name="setOn-InvocationStart" covered="_glZmIJ_sEeqYV7rdlDew7A" message="_rfNBQJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rfNoU5_sEeqYV7rdlDew7A" name="setOn-ExecutionStart" covered="_glZmIJ_sEeqYV7rdlDew7A" message="_rfNBQJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rfNoVZ_sEeqYV7rdlDew7A" name="setOn-invocationBody" covered="_glZmIJ_sEeqYV7rdlDew7A" finish="_rfOPYp_sEeqYV7rdlDew7A" start="_rfNoUZ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rfNoVp_sEeqYV7rdlDew7A" name="setOn-executionBody" covered="_glZmIJ_sEeqYV7rdlDew7A" finish="_rfOPYJ_sEeqYV7rdlDew7A" start="_rfNoU5_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rfOPYJ_sEeqYV7rdlDew7A" name="setOn-ExecutionFinish" covered="_glZmIJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rfOPYp_sEeqYV7rdlDew7A" name="setOn-InvocationFinish" covered="_glZmIJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Qsw8sp_wEeqYV7rdlDew7A" name="ChangeState-InvocationStart" covered="_jWfNsJ_sEeqYV7rdlDew7A" message="_Qsw8sJ_wEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsxjwZ_wEeqYV7rdlDew7A" name="ChangeState-ExecutionStart" covered="_jWfNsJ_sEeqYV7rdlDew7A" message="_Qsw8sJ_wEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Qsxjw5_wEeqYV7rdlDew7A" name="ChangeState-invocationBody" covered="_jWfNsJ_sEeqYV7rdlDew7A" finish="_Qsxjx5_wEeqYV7rdlDew7A" start="_Qsw8sp_wEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_QsxjxJ_wEeqYV7rdlDew7A" name="ChangeState-executionBody" covered="_jWfNsJ_sEeqYV7rdlDew7A" finish="_QsxjxZ_wEeqYV7rdlDew7A" start="_QsxjwZ_wEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsxjxZ_wEeqYV7rdlDew7A" name="ChangeState-ExecutionFinish" covered="_jWfNsJ_sEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Qsxjx5_wEeqYV7rdlDew7A" name="ChangeState-InvocationFinish" covered="_jWfNsJ_sEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_urdYsJ25Eeqt0rI1Pp0uyQ" name="User" represents="_vhvesZq_EeqHEMN7vqK8zg" coveredBy="_GnzbsZ_sEeqYV7rdlDew7A _Gn0Cw5_sEeqYV7rdlDew7A _GnzbtZ_sEeqYV7rdlDew7A _N6FWgJ_sEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_EEqJgJ_sEeqYV7rdlDew7A" name="DistressButton" represents="_gKU7EZ_pEeqYV7rdlDew7A" coveredBy="_Gnzbs5_sEeqYV7rdlDew7A _Gn0CwZ_sEeqYV7rdlDew7A _Gn0CwJ_sEeqYV7rdlDew7A _N6FWgJ_sEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_MULIoJ_sEeqYV7rdlDew7A" name="Screen" represents="_42EJwZq_EeqHEMN7vqK8zg" coveredBy="_N6FWgJ_sEeqYV7rdlDew7A _YOm6UZ_sEeqYV7rdlDew7A _YOnhZZ_sEeqYV7rdlDew7A _YOnhYZ_sEeqYV7rdlDew7A _YOm6U5_sEeqYV7rdlDew7A _YOnhY5_sEeqYV7rdlDew7A _YOnhYp_sEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_glZmIJ_sEeqYV7rdlDew7A" name="IndicatorLight" represents="_sbOYoZ3_Eeqt0rI1Pp0uyQ" coveredBy="_N6FWgJ_sEeqYV7rdlDew7A _rfNoUZ_sEeqYV7rdlDew7A _rfOPYp_sEeqYV7rdlDew7A _rfNoVZ_sEeqYV7rdlDew7A _rfNoU5_sEeqYV7rdlDew7A _rfOPYJ_sEeqYV7rdlDew7A _rfNoVp_sEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_jWfNsJ_sEeqYV7rdlDew7A" name="PrivacyMode" represents="_RrjsIZ2_Eeqt0rI1Pp0uyQ" coveredBy="_N6FWgJ_sEeqYV7rdlDew7A _Qsw8sp_wEeqYV7rdlDew7A _Qsxjx5_wEeqYV7rdlDew7A _Qsxjw5_wEeqYV7rdlDew7A _QsxjwZ_wEeqYV7rdlDew7A _QsxjxZ_wEeqYV7rdlDew7A _QsxjxJ_wEeqYV7rdlDew7A"/>
+        <message xmi:id="_Gny0oJ_sEeqYV7rdlDew7A" name="Press" receiveEvent="_Gnzbs5_sEeqYV7rdlDew7A" sendEvent="_GnzbsZ_sEeqYV7rdlDew7A" signature="_ozlP4J_pEeqYV7rdlDew7A"/>
+        <message xmi:id="_YOmTQJ_sEeqYV7rdlDew7A" name="ChangeScreen" receiveEvent="_YOm6U5_sEeqYV7rdlDew7A" sendEvent="_YOm6UZ_sEeqYV7rdlDew7A" signature="_YOoIcZ_sEeqYV7rdlDew7A">
+          <argument xmi:type="uml:LiteralString" xmi:id="_YOoIcJ_sEeqYV7rdlDew7A" name="ChangeScreen" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="DistressScreen"/>
+        </message>
+        <message xmi:id="_rfNBQJ_sEeqYV7rdlDew7A" name="setOn" receiveEvent="_rfNoU5_sEeqYV7rdlDew7A" sendEvent="_rfNoUZ_sEeqYV7rdlDew7A" signature="_ZEZkwZ_qEeqYV7rdlDew7A">
+          <argument xmi:type="uml:LiteralString" xmi:id="_rfOPZJ_sEeqYV7rdlDew7A" name="arg0" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="Blinking"/>
+        </message>
+        <message xmi:id="_Qsw8sJ_wEeqYV7rdlDew7A" name="ChangeState" receiveEvent="_QsxjwZ_wEeqYV7rdlDew7A" sendEvent="_Qsw8sp_wEeqYV7rdlDew7A" signature="_T396sJ3-Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_QsyK0J_wEeqYV7rdlDew7A" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="Off"/>
+        </message>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_hG8A8J3_Eeqt0rI1Pp0uyQ" name="Forbidden">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mM2K0p3_Eeqt0rI1Pp0uyQ" name="PrivacyModeBPressed-InvocationStart" covered="_iI9eoJ3_Eeqt0rI1Pp0uyQ" message="_mM2K0J3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mM2K1J3_Eeqt0rI1Pp0uyQ" name="PrivacyModeBPressed-ExecutionStart" covered="_juOMQJ3_Eeqt0rI1Pp0uyQ" message="_mM2K0J3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mM2x4Z3_Eeqt0rI1Pp0uyQ" name="PrivacyModeBPressed-invocationBody" covered="_iI9eoJ3_Eeqt0rI1Pp0uyQ" finish="_mM2x5Z3_Eeqt0rI1Pp0uyQ" start="_mM2K0p3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mM2x4p3_Eeqt0rI1Pp0uyQ" name="PrivacyModeBPressed-executionBody" covered="_juOMQJ3_Eeqt0rI1Pp0uyQ" finish="_mM2x453_Eeqt0rI1Pp0uyQ" start="_mM2K1J3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mM2x453_Eeqt0rI1Pp0uyQ" name="PrivacyModeBPressed-ExecutionFinish" covered="_juOMQJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mM2x5Z3_Eeqt0rI1Pp0uyQ" name="PrivacyModeBPressed-InvocationFinish" covered="_iI9eoJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TL4BQJ_hEeqYV7rdlDew7A" name="PrivacyModeBPressed-InvocationStart" covered="_iI9eoJ3_Eeqt0rI1Pp0uyQ" message="_TL2zIJ_hEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TL4BQp_hEeqYV7rdlDew7A" name="PrivacyModeBPressed-ExecutionStart" covered="_juOMQJ3_Eeqt0rI1Pp0uyQ" message="_TL2zIJ_hEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_TL4BRJ_hEeqYV7rdlDew7A" name="PrivacyModeBPressed-invocationBody" covered="_iI9eoJ3_Eeqt0rI1Pp0uyQ" finish="_TL4oUJ_hEeqYV7rdlDew7A" start="_TL4BQJ_hEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_TL4BRZ_hEeqYV7rdlDew7A" name="PrivacyModeBPressed-executionBody" covered="_juOMQJ3_Eeqt0rI1Pp0uyQ" finish="_TL4BRp_hEeqYV7rdlDew7A" start="_TL4BQp_hEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TL4BRp_hEeqYV7rdlDew7A" name="PrivacyModeBPressed-ExecutionFinish" covered="_juOMQJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TL4oUJ_hEeqYV7rdlDew7A" name="PrivacyModeBPressed-InvocationFinish" covered="_iI9eoJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_GiYuwJ4AEeqt0rI1Pp0uyQ" name="Forbid" covered="_iI9eoJ3_Eeqt0rI1Pp0uyQ _juOMQJ3_Eeqt0rI1Pp0uyQ _sbJgIJ3_Eeqt0rI1Pp0uyQ _vuHswJ3_Eeqt0rI1Pp0uyQ">
+          <invariant xmi:id="_GiZV0p4AEeqt0rI1Pp0uyQ" name="false">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_GiZV054AEeqt0rI1Pp0uyQ">
+              <body>false</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2szWIp3_Eeqt0rI1Pp0uyQ" name="ChangeState-InvocationStart" covered="_sbJgIJ3_Eeqt0rI1Pp0uyQ" message="_2szWIJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2sz9MZ3_Eeqt0rI1Pp0uyQ" name="ChangeState-ExecutionStart" covered="_sbJgIJ3_Eeqt0rI1Pp0uyQ" message="_2szWIJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_2sz9M53_Eeqt0rI1Pp0uyQ" name="ChangeState-invocationBody" covered="_sbJgIJ3_Eeqt0rI1Pp0uyQ" finish="_2sz9N53_Eeqt0rI1Pp0uyQ" start="_2szWIp3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_2sz9NJ3_Eeqt0rI1Pp0uyQ" name="ChangeState-executionBody" covered="_sbJgIJ3_Eeqt0rI1Pp0uyQ" finish="_2sz9NZ3_Eeqt0rI1Pp0uyQ" start="_2sz9MZ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2sz9NZ3_Eeqt0rI1Pp0uyQ" name="ChangeState-ExecutionFinish" covered="_sbJgIJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2sz9N53_Eeqt0rI1Pp0uyQ" name="ChangeState-InvocationFinish" covered="_sbJgIJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4omUcJ3_Eeqt0rI1Pp0uyQ" name="ChangeState-InvocationStart" covered="_vuHswJ3_Eeqt0rI1Pp0uyQ" message="_4oltYJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4omUcp3_Eeqt0rI1Pp0uyQ" name="ChangeState-ExecutionStart" covered="_vuHswJ3_Eeqt0rI1Pp0uyQ" message="_4oltYJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_4omUdJ3_Eeqt0rI1Pp0uyQ" name="ChangeState-invocationBody" covered="_vuHswJ3_Eeqt0rI1Pp0uyQ" finish="_4omUeJ3_Eeqt0rI1Pp0uyQ" start="_4omUcJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_4omUdZ3_Eeqt0rI1Pp0uyQ" name="ChangeState-executionBody" covered="_vuHswJ3_Eeqt0rI1Pp0uyQ" finish="_4omUdp3_Eeqt0rI1Pp0uyQ" start="_4omUcp3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4omUdp3_Eeqt0rI1Pp0uyQ" name="ChangeState-ExecutionFinish" covered="_vuHswJ3_Eeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4omUeJ3_Eeqt0rI1Pp0uyQ" name="ChangeState-InvocationFinish" covered="_vuHswJ3_Eeqt0rI1Pp0uyQ"/>
+        <lifeline xmi:id="_iI9eoJ3_Eeqt0rI1Pp0uyQ" name="User" represents="_vhvesZq_EeqHEMN7vqK8zg" coveredBy="_mM2K0p3_Eeqt0rI1Pp0uyQ _mM2x5Z3_Eeqt0rI1Pp0uyQ _mM2x4Z3_Eeqt0rI1Pp0uyQ _GiYuwJ4AEeqt0rI1Pp0uyQ _TL4BQJ_hEeqYV7rdlDew7A _TL4oUJ_hEeqYV7rdlDew7A _TL4BRJ_hEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_juOMQJ3_Eeqt0rI1Pp0uyQ" name="PrivacyMode" represents="_RrjsIZ2_Eeqt0rI1Pp0uyQ" coveredBy="_mM2K1J3_Eeqt0rI1Pp0uyQ _mM2x453_Eeqt0rI1Pp0uyQ _mM2x4p3_Eeqt0rI1Pp0uyQ _GiYuwJ4AEeqt0rI1Pp0uyQ _TL4BQp_hEeqYV7rdlDew7A _TL4BRp_hEeqYV7rdlDew7A _TL4BRZ_hEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_sbJgIJ3_Eeqt0rI1Pp0uyQ" name="Cam" represents="_sbOYoZ3_Eeqt0rI1Pp0uyQ" coveredBy="_2szWIp3_Eeqt0rI1Pp0uyQ _2sz9N53_Eeqt0rI1Pp0uyQ _2sz9M53_Eeqt0rI1Pp0uyQ _2sz9MZ3_Eeqt0rI1Pp0uyQ _2sz9NZ3_Eeqt0rI1Pp0uyQ _2sz9NJ3_Eeqt0rI1Pp0uyQ _GiYuwJ4AEeqt0rI1Pp0uyQ"/>
+        <lifeline xmi:id="_vuHswJ3_Eeqt0rI1Pp0uyQ" name="Mic" represents="_sbOYoZ3_Eeqt0rI1Pp0uyQ" coveredBy="_4omUcJ3_Eeqt0rI1Pp0uyQ _4omUeJ3_Eeqt0rI1Pp0uyQ _4omUdJ3_Eeqt0rI1Pp0uyQ _4omUcp3_Eeqt0rI1Pp0uyQ _4omUdp3_Eeqt0rI1Pp0uyQ _4omUdZ3_Eeqt0rI1Pp0uyQ _GiYuwJ4AEeqt0rI1Pp0uyQ"/>
+        <message xmi:id="_mM2K0J3_Eeqt0rI1Pp0uyQ" name="PrivacyModeBPressed" receiveEvent="_mM2K1J3_Eeqt0rI1Pp0uyQ" sendEvent="_mM2K0p3_Eeqt0rI1Pp0uyQ" signature="_oKmGYZ3-Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_mM3Y8J3_Eeqt0rI1Pp0uyQ" name="StateChange" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="on"/>
+        </message>
+        <message xmi:id="_2szWIJ3_Eeqt0rI1Pp0uyQ" name="ChangeState" receiveEvent="_2sz9MZ3_Eeqt0rI1Pp0uyQ" sendEvent="_2szWIp3_Eeqt0rI1Pp0uyQ" signature="_2s0kQp3_Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_2s0kQZ3_Eeqt0rI1Pp0uyQ" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="on"/>
+        </message>
+        <message xmi:id="_4oltYJ3_Eeqt0rI1Pp0uyQ" name="ChangeState" receiveEvent="_4omUcp3_Eeqt0rI1Pp0uyQ" sendEvent="_4omUcJ3_Eeqt0rI1Pp0uyQ" signature="_2s0kQp3_Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_4om7gZ3_Eeqt0rI1Pp0uyQ" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="on"/>
+        </message>
+        <message xmi:id="_TL2zIJ_hEeqYV7rdlDew7A" name="PrivacyModeBPressed" receiveEvent="_TL4BQp_hEeqYV7rdlDew7A" sendEvent="_TL4BQJ_hEeqYV7rdlDew7A" signature="_oKmGYZ3-Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_TL4oUp_hEeqYV7rdlDew7A" name="StateChange" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="off"/>
+        </message>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_FE8q8J4BEeqt0rI1Pp0uyQ" name="Unification2.1">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_23xdwJ4EEeqt0rI1Pp0uyQ" name="DistressBPressed-InvocationStart" covered="_b-594J4EEeqt0rI1Pp0uyQ" message="_23w2sJ4EEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_23xdwp4EEeqt0rI1Pp0uyQ" name="DistressBPressed-ExecutionStart" covered="_woxk4J4EEeqt0rI1Pp0uyQ" message="_23w2sJ4EEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_23xdxJ4EEeqt0rI1Pp0uyQ" name="DistressBPressed-invocationBody" covered="_b-594J4EEeqt0rI1Pp0uyQ" finish="_23yE0p4EEeqt0rI1Pp0uyQ" start="_23xdwJ4EEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_23xdxZ4EEeqt0rI1Pp0uyQ" name="DistressBPressed-executionBody" covered="_woxk4J4EEeqt0rI1Pp0uyQ" finish="_23yE0J4EEeqt0rI1Pp0uyQ" start="_23xdwp4EEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_23yE0J4EEeqt0rI1Pp0uyQ" name="DistressBPressed-ExecutionFinish" covered="_woxk4J4EEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_23yE0p4EEeqt0rI1Pp0uyQ" name="DistressBPressed-InvocationFinish" covered="_b-594J4EEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="__7aBcJ4EEeqt0rI1Pp0uyQ" name="SYNC" covered="_b-594J4EEeqt0rI1Pp0uyQ _woxk4J4EEeqt0rI1Pp0uyQ _EvnXUJ4FEeqt0rI1Pp0uyQ">
+          <invariant xmi:id="__7aBc54EEeqt0rI1Pp0uyQ" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="__7aBdJ4EEeqt0rI1Pp0uyQ">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LsxWsp4FEeqt0rI1Pp0uyQ" name="ChangeState-InvocationStart" covered="_EvnXUJ4FEeqt0rI1Pp0uyQ" message="_LsxWsJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LsxWtJ4FEeqt0rI1Pp0uyQ" name="ChangeState-ExecutionStart" covered="_EvnXUJ4FEeqt0rI1Pp0uyQ" message="_LsxWsJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_LsxWtp4FEeqt0rI1Pp0uyQ" name="ChangeState-invocationBody" covered="_EvnXUJ4FEeqt0rI1Pp0uyQ" finish="_Lsx9w54FEeqt0rI1Pp0uyQ" start="_LsxWsp4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Lsx9wJ4FEeqt0rI1Pp0uyQ" name="ChangeState-executionBody" covered="_EvnXUJ4FEeqt0rI1Pp0uyQ" finish="_Lsx9wZ4FEeqt0rI1Pp0uyQ" start="_LsxWtJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Lsx9wZ4FEeqt0rI1Pp0uyQ" name="ChangeState-ExecutionFinish" covered="_EvnXUJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Lsx9w54FEeqt0rI1Pp0uyQ" name="ChangeState-InvocationFinish" covered="_EvnXUJ4FEeqt0rI1Pp0uyQ"/>
+        <lifeline xmi:id="_b-594J4EEeqt0rI1Pp0uyQ" name="User" represents="_vhvesZq_EeqHEMN7vqK8zg" coveredBy="_23xdwJ4EEeqt0rI1Pp0uyQ _23yE0p4EEeqt0rI1Pp0uyQ _23xdxJ4EEeqt0rI1Pp0uyQ __7aBcJ4EEeqt0rI1Pp0uyQ"/>
+        <lifeline xmi:id="_woxk4J4EEeqt0rI1Pp0uyQ" name="DistressScreen" represents="_42EJwZq_EeqHEMN7vqK8zg" coveredBy="_23xdwp4EEeqt0rI1Pp0uyQ _23yE0J4EEeqt0rI1Pp0uyQ _23xdxZ4EEeqt0rI1Pp0uyQ __7aBcJ4EEeqt0rI1Pp0uyQ"/>
+        <lifeline xmi:id="_EvnXUJ4FEeqt0rI1Pp0uyQ" name="PrivacyMode" represents="_RrjsIZ2_Eeqt0rI1Pp0uyQ" coveredBy="_LsxWsp4FEeqt0rI1Pp0uyQ _Lsx9w54FEeqt0rI1Pp0uyQ _LsxWtp4FEeqt0rI1Pp0uyQ _LsxWtJ4FEeqt0rI1Pp0uyQ _Lsx9wZ4FEeqt0rI1Pp0uyQ _Lsx9wJ4FEeqt0rI1Pp0uyQ __7aBcJ4EEeqt0rI1Pp0uyQ"/>
+        <message xmi:id="_23w2sJ4EEeqt0rI1Pp0uyQ" name="DistressBPressed" receiveEvent="_23xdwp4EEeqt0rI1Pp0uyQ" sendEvent="_23xdwJ4EEeqt0rI1Pp0uyQ" signature="_23yE1J4EEeqt0rI1Pp0uyQ"/>
+        <message xmi:id="_LsxWsJ4FEeqt0rI1Pp0uyQ" name="ChangeState" receiveEvent="_LsxWtJ4FEeqt0rI1Pp0uyQ" sendEvent="_LsxWsp4FEeqt0rI1Pp0uyQ" signature="_T396sJ3-Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_Lsx9xZ4FEeqt0rI1Pp0uyQ" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="off"/>
+        </message>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_UC2Q0J4FEeqt0rI1Pp0uyQ" name="Unification2.2">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uUqXwZ4FEeqt0rI1Pp0uyQ" name="DistressBPressed-InvocationStart" covered="_W6RJ4J4FEeqt0rI1Pp0uyQ" message="_uUpwsJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uUqXw54FEeqt0rI1Pp0uyQ" name="DistressBPressed-ExecutionStart" covered="_YGWigJ4FEeqt0rI1Pp0uyQ" message="_uUpwsJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_uUqXxZ4FEeqt0rI1Pp0uyQ" name="DistressBPressed-invocationBody" covered="_W6RJ4J4FEeqt0rI1Pp0uyQ" finish="_uUq-054FEeqt0rI1Pp0uyQ" start="_uUqXwZ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_uUq-0J4FEeqt0rI1Pp0uyQ" name="DistressBPressed-executionBody" covered="_YGWigJ4FEeqt0rI1Pp0uyQ" finish="_uUq-0Z4FEeqt0rI1Pp0uyQ" start="_uUqXw54FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uUq-0Z4FEeqt0rI1Pp0uyQ" name="DistressBPressed-ExecutionFinish" covered="_YGWigJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uUq-054FEeqt0rI1Pp0uyQ" name="DistressBPressed-InvocationFinish" covered="_W6RJ4J4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_xBysYJ4FEeqt0rI1Pp0uyQ" name="SYNC" covered="_W6RJ4J4FEeqt0rI1Pp0uyQ _YGWigJ4FEeqt0rI1Pp0uyQ _mpvTcJ4FEeqt0rI1Pp0uyQ">
+          <invariant xmi:id="_xBzTcJ4FEeqt0rI1Pp0uyQ" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_xBzTcZ4FEeqt0rI1Pp0uyQ">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zmF1IZ4FEeqt0rI1Pp0uyQ" name="ChangeState-InvocationStart" covered="_mpvTcJ4FEeqt0rI1Pp0uyQ" message="_zmFOEJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zmF1I54FEeqt0rI1Pp0uyQ" name="ChangeState-ExecutionStart" covered="_mpvTcJ4FEeqt0rI1Pp0uyQ" message="_zmFOEJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_zmF1JZ4FEeqt0rI1Pp0uyQ" name="ChangeState-invocationBody" covered="_mpvTcJ4FEeqt0rI1Pp0uyQ" finish="_zmGcM54FEeqt0rI1Pp0uyQ" start="_zmF1IZ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_zmGcMJ4FEeqt0rI1Pp0uyQ" name="ChangeState-executionBody" covered="_mpvTcJ4FEeqt0rI1Pp0uyQ" finish="_zmGcMZ4FEeqt0rI1Pp0uyQ" start="_zmF1I54FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zmGcMZ4FEeqt0rI1Pp0uyQ" name="ChangeState-ExecutionFinish" covered="_mpvTcJ4FEeqt0rI1Pp0uyQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zmGcM54FEeqt0rI1Pp0uyQ" name="ChangeState-InvocationFinish" covered="_mpvTcJ4FEeqt0rI1Pp0uyQ"/>
+        <lifeline xmi:id="_W6RJ4J4FEeqt0rI1Pp0uyQ" name="User" represents="_vhvesZq_EeqHEMN7vqK8zg" coveredBy="_uUqXwZ4FEeqt0rI1Pp0uyQ _uUq-054FEeqt0rI1Pp0uyQ _uUqXxZ4FEeqt0rI1Pp0uyQ _xBysYJ4FEeqt0rI1Pp0uyQ"/>
+        <lifeline xmi:id="_YGWigJ4FEeqt0rI1Pp0uyQ" name="DistressScreen" represents="_42EJwZq_EeqHEMN7vqK8zg" coveredBy="_uUqXw54FEeqt0rI1Pp0uyQ _uUq-0Z4FEeqt0rI1Pp0uyQ _uUq-0J4FEeqt0rI1Pp0uyQ _xBysYJ4FEeqt0rI1Pp0uyQ"/>
+        <lifeline xmi:id="_mpvTcJ4FEeqt0rI1Pp0uyQ" name="IndicatorLight" represents="_sbOYoZ3_Eeqt0rI1Pp0uyQ" coveredBy="_xBysYJ4FEeqt0rI1Pp0uyQ _zmF1IZ4FEeqt0rI1Pp0uyQ _zmGcM54FEeqt0rI1Pp0uyQ _zmF1JZ4FEeqt0rI1Pp0uyQ _zmF1I54FEeqt0rI1Pp0uyQ _zmGcMZ4FEeqt0rI1Pp0uyQ _zmGcMJ4FEeqt0rI1Pp0uyQ"/>
+        <message xmi:id="_uUpwsJ4FEeqt0rI1Pp0uyQ" name="DistressBPressed" receiveEvent="_uUqXw54FEeqt0rI1Pp0uyQ" sendEvent="_uUqXwZ4FEeqt0rI1Pp0uyQ" signature="_23yE1J4EEeqt0rI1Pp0uyQ"/>
+        <message xmi:id="_zmFOEJ4FEeqt0rI1Pp0uyQ" name="ChangeState" receiveEvent="_zmF1I54FEeqt0rI1Pp0uyQ" sendEvent="_zmF1IZ4FEeqt0rI1Pp0uyQ" signature="_2s0kQp3_Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_zmGcNZ4FEeqt0rI1Pp0uyQ" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="on"/>
+        </message>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_BXzw8J6oEeqkSp4PYlS34w" name="LSC2">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gqJt0Z_tEeqYV7rdlDew7A" name="setOn-InvocationStart" covered="_bX5KAJ_tEeqYV7rdlDew7A" message="_gqJGwJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gqJt05_tEeqYV7rdlDew7A" name="setOn-ExecutionStart" covered="_bX5KAJ_tEeqYV7rdlDew7A" message="_gqJGwJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_gqJt1Z_tEeqYV7rdlDew7A" name="setOn-invocationBody" covered="_bX5KAJ_tEeqYV7rdlDew7A" finish="_gqKU4p_tEeqYV7rdlDew7A" start="_gqJt0Z_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_gqJt1p_tEeqYV7rdlDew7A" name="setOn-executionBody" covered="_bX5KAJ_tEeqYV7rdlDew7A" finish="_gqKU4J_tEeqYV7rdlDew7A" start="_gqJt05_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gqKU4J_tEeqYV7rdlDew7A" name="setOn-ExecutionFinish" covered="_bX5KAJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gqKU4p_tEeqYV7rdlDew7A" name="setOn-InvocationFinish" covered="_bX5KAJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_jTUvgJ_tEeqYV7rdlDew7A" name="SYNC" covered="_D2TzsJ6oEeqkSp4PYlS34w _KkdCAJ_tEeqYV7rdlDew7A _bX5KAJ_tEeqYV7rdlDew7A">
+          <invariant xmi:id="_jTUvg5_tEeqYV7rdlDew7A" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_jTUvhJ_tEeqYV7rdlDew7A">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LmFeIp_tEeqYV7rdlDew7A" name="Press-InvocationStart" covered="_D2TzsJ6oEeqkSp4PYlS34w" message="_LmFeIJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LmGFMZ_tEeqYV7rdlDew7A" name="Press-ExecutionStart" covered="_KkdCAJ_tEeqYV7rdlDew7A" message="_LmFeIJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_LmGFM5_tEeqYV7rdlDew7A" name="Press-invocationBody" covered="_D2TzsJ6oEeqkSp4PYlS34w" finish="_LmGFN5_tEeqYV7rdlDew7A" start="_LmFeIp_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_LmGFNJ_tEeqYV7rdlDew7A" name="Press-executionBody" covered="_KkdCAJ_tEeqYV7rdlDew7A" finish="_LmGFNZ_tEeqYV7rdlDew7A" start="_LmGFMZ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LmGFNZ_tEeqYV7rdlDew7A" name="Press-ExecutionFinish" covered="_KkdCAJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LmGFN5_tEeqYV7rdlDew7A" name="Press-InvocationFinish" covered="_D2TzsJ6oEeqkSp4PYlS34w"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_rjvtkJ_tEeqYV7rdlDew7A" name="SYNC" covered="_D2TzsJ6oEeqkSp4PYlS34w _KkdCAJ_tEeqYV7rdlDew7A _bX5KAJ_tEeqYV7rdlDew7A">
+          <invariant xmi:id="_rjwUop_tEeqYV7rdlDew7A" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_rjwUo5_tEeqYV7rdlDew7A">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vnZJMJ_tEeqYV7rdlDew7A" name="setOn-InvocationStart" covered="_bX5KAJ_tEeqYV7rdlDew7A" message="_vnYiIJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vnZJMp_tEeqYV7rdlDew7A" name="setOn-ExecutionStart" covered="_bX5KAJ_tEeqYV7rdlDew7A" message="_vnYiIJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vnZJNJ_tEeqYV7rdlDew7A" name="setOn-invocationBody" covered="_bX5KAJ_tEeqYV7rdlDew7A" finish="_vnZwQp_tEeqYV7rdlDew7A" start="_vnZJMJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vnZJNZ_tEeqYV7rdlDew7A" name="setOn-executionBody" covered="_bX5KAJ_tEeqYV7rdlDew7A" finish="_vnZwQJ_tEeqYV7rdlDew7A" start="_vnZJMp_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vnZwQJ_tEeqYV7rdlDew7A" name="setOn-ExecutionFinish" covered="_bX5KAJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vnZwQp_tEeqYV7rdlDew7A" name="setOn-InvocationFinish" covered="_bX5KAJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_zK1awJ_tEeqYV7rdlDew7A" name="SYNC" covered="_D2TzsJ6oEeqkSp4PYlS34w _KkdCAJ_tEeqYV7rdlDew7A _bX5KAJ_tEeqYV7rdlDew7A">
+          <invariant xmi:id="_zK1aw5_tEeqYV7rdlDew7A" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_zK1axJ_tEeqYV7rdlDew7A">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2WdpQp_tEeqYV7rdlDew7A" name="Press-InvocationStart" covered="_D2TzsJ6oEeqkSp4PYlS34w" message="_2WdpQJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2WeQUZ_tEeqYV7rdlDew7A" name="Press-ExecutionStart" covered="_KkdCAJ_tEeqYV7rdlDew7A" message="_2WdpQJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_2WeQU5_tEeqYV7rdlDew7A" name="Press-invocationBody" covered="_D2TzsJ6oEeqkSp4PYlS34w" finish="_2WeQV5_tEeqYV7rdlDew7A" start="_2WdpQp_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_2WeQVJ_tEeqYV7rdlDew7A" name="Press-executionBody" covered="_KkdCAJ_tEeqYV7rdlDew7A" finish="_2WeQVZ_tEeqYV7rdlDew7A" start="_2WeQUZ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2WeQVZ_tEeqYV7rdlDew7A" name="Press-ExecutionFinish" covered="_KkdCAJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2WeQV5_tEeqYV7rdlDew7A" name="Press-InvocationFinish" covered="_D2TzsJ6oEeqkSp4PYlS34w"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_3EP8UJ_tEeqYV7rdlDew7A" name="SYNC" covered="_D2TzsJ6oEeqkSp4PYlS34w _KkdCAJ_tEeqYV7rdlDew7A _bX5KAJ_tEeqYV7rdlDew7A">
+          <invariant xmi:id="_3EQjYp_tEeqYV7rdlDew7A" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_3EQjY5_tEeqYV7rdlDew7A">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4T5mUZ_tEeqYV7rdlDew7A" name="setOff-InvocationStart" covered="_bX5KAJ_tEeqYV7rdlDew7A" message="_4T4_QJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4T5mU5_tEeqYV7rdlDew7A" name="setOff-ExecutionStart" covered="_bX5KAJ_tEeqYV7rdlDew7A" message="_4T4_QJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_4T6NYZ_tEeqYV7rdlDew7A" name="setOff-invocationBody" covered="_bX5KAJ_tEeqYV7rdlDew7A" finish="_4T6NZZ_tEeqYV7rdlDew7A" start="_4T5mUZ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_4T6NYp_tEeqYV7rdlDew7A" name="setOff-executionBody" covered="_bX5KAJ_tEeqYV7rdlDew7A" finish="_4T6NY5_tEeqYV7rdlDew7A" start="_4T5mU5_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4T6NY5_tEeqYV7rdlDew7A" name="setOff-ExecutionFinish" covered="_bX5KAJ_tEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4T6NZZ_tEeqYV7rdlDew7A" name="setOff-InvocationFinish" covered="_bX5KAJ_tEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_D2TzsJ6oEeqkSp4PYlS34w" name="Nurse" represents="_vhvesZq_EeqHEMN7vqK8zg" coveredBy="_LmFeIp_tEeqYV7rdlDew7A _LmGFN5_tEeqYV7rdlDew7A _LmGFM5_tEeqYV7rdlDew7A _jTUvgJ_tEeqYV7rdlDew7A _rjvtkJ_tEeqYV7rdlDew7A _zK1awJ_tEeqYV7rdlDew7A _2WdpQp_tEeqYV7rdlDew7A _2WeQV5_tEeqYV7rdlDew7A _2WeQU5_tEeqYV7rdlDew7A _3EP8UJ_tEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_KkdCAJ_tEeqYV7rdlDew7A" name="NurseApprovedDistressSignal" represents="_gKU7EZ_pEeqYV7rdlDew7A" coveredBy="_LmGFMZ_tEeqYV7rdlDew7A _LmGFNZ_tEeqYV7rdlDew7A _LmGFNJ_tEeqYV7rdlDew7A _jTUvgJ_tEeqYV7rdlDew7A _rjvtkJ_tEeqYV7rdlDew7A _zK1awJ_tEeqYV7rdlDew7A _2WeQUZ_tEeqYV7rdlDew7A _2WeQVZ_tEeqYV7rdlDew7A _2WeQVJ_tEeqYV7rdlDew7A _3EP8UJ_tEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_bX5KAJ_tEeqYV7rdlDew7A" name="IndicatorLight" represents="_sbOYoZ3_Eeqt0rI1Pp0uyQ" coveredBy="_gqJt0Z_tEeqYV7rdlDew7A _gqKU4p_tEeqYV7rdlDew7A _gqJt1Z_tEeqYV7rdlDew7A _gqJt05_tEeqYV7rdlDew7A _gqKU4J_tEeqYV7rdlDew7A _gqJt1p_tEeqYV7rdlDew7A _jTUvgJ_tEeqYV7rdlDew7A _rjvtkJ_tEeqYV7rdlDew7A _vnZJMJ_tEeqYV7rdlDew7A _vnZwQp_tEeqYV7rdlDew7A _vnZJNJ_tEeqYV7rdlDew7A _vnZJMp_tEeqYV7rdlDew7A _vnZwQJ_tEeqYV7rdlDew7A _vnZJNZ_tEeqYV7rdlDew7A _zK1awJ_tEeqYV7rdlDew7A _3EP8UJ_tEeqYV7rdlDew7A _4T5mUZ_tEeqYV7rdlDew7A _4T6NZZ_tEeqYV7rdlDew7A _4T6NYZ_tEeqYV7rdlDew7A _4T5mU5_tEeqYV7rdlDew7A _4T6NY5_tEeqYV7rdlDew7A _4T6NYp_tEeqYV7rdlDew7A"/>
+        <message xmi:id="_LmFeIJ_tEeqYV7rdlDew7A" name="Press" receiveEvent="_LmGFMZ_tEeqYV7rdlDew7A" sendEvent="_LmFeIp_tEeqYV7rdlDew7A" signature="_ozlP4J_pEeqYV7rdlDew7A"/>
+        <message xmi:id="_gqJGwJ_tEeqYV7rdlDew7A" name="setOn" receiveEvent="_gqJt05_tEeqYV7rdlDew7A" sendEvent="_gqJt0Z_tEeqYV7rdlDew7A" signature="_ZEZkwZ_qEeqYV7rdlDew7A">
+          <argument xmi:type="uml:LiteralString" xmi:id="_gqKU5J_tEeqYV7rdlDew7A" name="arg0" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="Blinking"/>
+        </message>
+        <message xmi:id="_vnYiIJ_tEeqYV7rdlDew7A" name="setOn" receiveEvent="_vnZJMp_tEeqYV7rdlDew7A" sendEvent="_vnZJMJ_tEeqYV7rdlDew7A" signature="_ZEZkwZ_qEeqYV7rdlDew7A">
+          <argument xmi:type="uml:LiteralString" xmi:id="_vnZwRJ_tEeqYV7rdlDew7A" name="arg0" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="Steady"/>
+        </message>
+        <message xmi:id="_2WdpQJ_tEeqYV7rdlDew7A" name="Press" receiveEvent="_2WeQUZ_tEeqYV7rdlDew7A" sendEvent="_2WdpQp_tEeqYV7rdlDew7A" signature="_ozlP4J_pEeqYV7rdlDew7A"/>
+        <message xmi:id="_4T4_QJ_tEeqYV7rdlDew7A" name="setOff" receiveEvent="_4T5mU5_tEeqYV7rdlDew7A" sendEvent="_4T5mUZ_tEeqYV7rdlDew7A" signature="_GTnJ05_rEeqYV7rdlDew7A"/>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vecQwJ6pEeqkSp4PYlS34w" name="Unification1.1">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DreGEJ_vEeqYV7rdlDew7A" name="Press-InvocationStart" covered="_zcieAJ6pEeqkSp4PYlS34w" message="_DrdfAJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DreGEp_vEeqYV7rdlDew7A" name="Press-ExecutionStart" covered="_B1LS0J_vEeqYV7rdlDew7A" message="_DrdfAJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DreGFJ_vEeqYV7rdlDew7A" name="Press-invocationBody" covered="_zcieAJ6pEeqkSp4PYlS34w" finish="_DreGGJ_vEeqYV7rdlDew7A" start="_DreGEJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DreGFZ_vEeqYV7rdlDew7A" name="Press-executionBody" covered="_B1LS0J_vEeqYV7rdlDew7A" finish="_DreGFp_vEeqYV7rdlDew7A" start="_DreGEp_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DreGFp_vEeqYV7rdlDew7A" name="Press-ExecutionFinish" covered="_B1LS0J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DreGGJ_vEeqYV7rdlDew7A" name="Press-InvocationFinish" covered="_zcieAJ6pEeqkSp4PYlS34w"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_IwAW8J_vEeqYV7rdlDew7A" name="SYNC" covered="_zcieAJ6pEeqkSp4PYlS34w _B1LS0J_vEeqYV7rdlDew7A _H77OoJ_vEeqYV7rdlDew7A">
+          <invariant xmi:id="_IwA-AJ_vEeqYV7rdlDew7A" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_IwA-AZ_vEeqYV7rdlDew7A">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LuIU8p_vEeqYV7rdlDew7A" name="ChangeState-InvocationStart" covered="_H77OoJ_vEeqYV7rdlDew7A" message="_LuIU8J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LuIU9J_vEeqYV7rdlDew7A" name="ChangeState-ExecutionStart" covered="_H77OoJ_vEeqYV7rdlDew7A" message="_LuIU8J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_LuIU9p_vEeqYV7rdlDew7A" name="ChangeState-invocationBody" covered="_H77OoJ_vEeqYV7rdlDew7A" finish="_LuI8Ap_vEeqYV7rdlDew7A" start="_LuIU8p_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_LuIU95_vEeqYV7rdlDew7A" name="ChangeState-executionBody" covered="_H77OoJ_vEeqYV7rdlDew7A" finish="_LuI8AJ_vEeqYV7rdlDew7A" start="_LuIU9J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LuI8AJ_vEeqYV7rdlDew7A" name="ChangeState-ExecutionFinish" covered="_H77OoJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LuI8Ap_vEeqYV7rdlDew7A" name="ChangeState-InvocationFinish" covered="_H77OoJ_vEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_zcieAJ6pEeqkSp4PYlS34w" name="User" represents="_vhvesZq_EeqHEMN7vqK8zg" coveredBy="_DreGEJ_vEeqYV7rdlDew7A _DreGGJ_vEeqYV7rdlDew7A _DreGFJ_vEeqYV7rdlDew7A _IwAW8J_vEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_B1LS0J_vEeqYV7rdlDew7A" name="PrivacyButton" represents="_gKU7EZ_pEeqYV7rdlDew7A" coveredBy="_DreGEp_vEeqYV7rdlDew7A _DreGFp_vEeqYV7rdlDew7A _DreGFZ_vEeqYV7rdlDew7A _IwAW8J_vEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_H77OoJ_vEeqYV7rdlDew7A" name="PrivacyMode" represents="_RrjsIZ2_Eeqt0rI1Pp0uyQ" coveredBy="_IwAW8J_vEeqYV7rdlDew7A _LuIU8p_vEeqYV7rdlDew7A _LuI8Ap_vEeqYV7rdlDew7A _LuIU9p_vEeqYV7rdlDew7A _LuIU9J_vEeqYV7rdlDew7A _LuI8AJ_vEeqYV7rdlDew7A _LuIU95_vEeqYV7rdlDew7A"/>
+        <message xmi:id="_DrdfAJ_vEeqYV7rdlDew7A" name="Press" receiveEvent="_DreGEp_vEeqYV7rdlDew7A" sendEvent="_DreGEJ_vEeqYV7rdlDew7A" signature="_ozlP4J_pEeqYV7rdlDew7A"/>
+        <message xmi:id="_LuIU8J_vEeqYV7rdlDew7A" name="ChangeState" receiveEvent="_LuIU9J_vEeqYV7rdlDew7A" sendEvent="_LuIU8p_vEeqYV7rdlDew7A" signature="_T396sJ3-Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_LuI8BJ_vEeqYV7rdlDew7A" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="On"/>
+        </message>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_2vajgJ_nEeqYV7rdlDew7A" name="Unification1.2">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bLA5sJ_vEeqYV7rdlDew7A" name="ChangeState-InvocationStart" covered="_Yhgg0J_vEeqYV7rdlDew7A" message="_bLASoJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bLA5sp_vEeqYV7rdlDew7A" name="ChangeState-ExecutionStart" covered="_Yhgg0J_vEeqYV7rdlDew7A" message="_bLASoJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_bLA5tJ_vEeqYV7rdlDew7A" name="ChangeState-invocationBody" covered="_Yhgg0J_vEeqYV7rdlDew7A" finish="_bLA5uJ_vEeqYV7rdlDew7A" start="_bLA5sJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_bLA5tZ_vEeqYV7rdlDew7A" name="ChangeState-executionBody" covered="_Yhgg0J_vEeqYV7rdlDew7A" finish="_bLA5tp_vEeqYV7rdlDew7A" start="_bLA5sp_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bLA5tp_vEeqYV7rdlDew7A" name="ChangeState-ExecutionFinish" covered="_Yhgg0J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bLA5uJ_vEeqYV7rdlDew7A" name="ChangeState-InvocationFinish" covered="_Yhgg0J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:StateInvariant" xmi:id="_iw_MkJ_vEeqYV7rdlDew7A" name="SYNC" covered="_4ryJkJ_nEeqYV7rdlDew7A _Yhgg0J_vEeqYV7rdlDew7A _eF26MJ_vEeqYV7rdlDew7A _fZyAMJ_vEeqYV7rdlDew7A _iC-QAJ_vEeqYV7rdlDew7A">
+          <invariant xmi:id="_iw_Mk5_vEeqYV7rdlDew7A" name="true">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_iw_MlJ_vEeqYV7rdlDew7A">
+              <body>true</body>
+            </specification>
+          </invariant>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wouYcZ_vEeqYV7rdlDew7A" name="ChangeState-InvocationStart" covered="_eF26MJ_vEeqYV7rdlDew7A" message="_wotxYJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wouYc5_vEeqYV7rdlDew7A" name="ChangeState-ExecutionStart" covered="_eF26MJ_vEeqYV7rdlDew7A" message="_wotxYJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_wouYdZ_vEeqYV7rdlDew7A" name="ChangeState-invocationBody" covered="_eF26MJ_vEeqYV7rdlDew7A" finish="_wou_gp_vEeqYV7rdlDew7A" start="_wouYcZ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_wouYdp_vEeqYV7rdlDew7A" name="ChangeState-executionBody" covered="_eF26MJ_vEeqYV7rdlDew7A" finish="_wou_gJ_vEeqYV7rdlDew7A" start="_wouYc5_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wou_gJ_vEeqYV7rdlDew7A" name="ChangeState-ExecutionFinish" covered="_eF26MJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wou_gp_vEeqYV7rdlDew7A" name="ChangeState-InvocationFinish" covered="_eF26MJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zlZk8p_vEeqYV7rdlDew7A" name="ChangeState-InvocationStart" covered="_fZyAMJ_vEeqYV7rdlDew7A" message="_zlZk8J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zlaMAZ_vEeqYV7rdlDew7A" name="ChangeState-ExecutionStart" covered="_fZyAMJ_vEeqYV7rdlDew7A" message="_zlZk8J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_zlaMA5_vEeqYV7rdlDew7A" name="ChangeState-invocationBody" covered="_fZyAMJ_vEeqYV7rdlDew7A" finish="_zlaMB5_vEeqYV7rdlDew7A" start="_zlZk8p_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_zlaMBJ_vEeqYV7rdlDew7A" name="ChangeState-executionBody" covered="_fZyAMJ_vEeqYV7rdlDew7A" finish="_zlaMBZ_vEeqYV7rdlDew7A" start="_zlaMAZ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zlaMBZ_vEeqYV7rdlDew7A" name="ChangeState-ExecutionFinish" covered="_fZyAMJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zlaMB5_vEeqYV7rdlDew7A" name="ChangeState-InvocationFinish" covered="_fZyAMJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1gsM8p_vEeqYV7rdlDew7A" name="ChangeState-InvocationStart" covered="_iC-QAJ_vEeqYV7rdlDew7A" message="_1gsM8J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1gs0AZ_vEeqYV7rdlDew7A" name="ChangeState-ExecutionStart" covered="_iC-QAJ_vEeqYV7rdlDew7A" message="_1gsM8J_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_1gs0A5_vEeqYV7rdlDew7A" name="ChangeState-invocationBody" covered="_iC-QAJ_vEeqYV7rdlDew7A" finish="_1gs0B5_vEeqYV7rdlDew7A" start="_1gsM8p_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_1gs0BJ_vEeqYV7rdlDew7A" name="ChangeState-executionBody" covered="_iC-QAJ_vEeqYV7rdlDew7A" finish="_1gs0BZ_vEeqYV7rdlDew7A" start="_1gs0AZ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1gs0BZ_vEeqYV7rdlDew7A" name="ChangeState-ExecutionFinish" covered="_iC-QAJ_vEeqYV7rdlDew7A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1gs0B5_vEeqYV7rdlDew7A" name="ChangeState-InvocationFinish" covered="_iC-QAJ_vEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_4ryJkJ_nEeqYV7rdlDew7A" name="User" represents="_vhvesZq_EeqHEMN7vqK8zg" coveredBy="_iw_MkJ_vEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_Yhgg0J_vEeqYV7rdlDew7A" name="PrivacyMode" represents="_RrjsIZ2_Eeqt0rI1Pp0uyQ" coveredBy="_bLA5sJ_vEeqYV7rdlDew7A _bLA5uJ_vEeqYV7rdlDew7A _bLA5tJ_vEeqYV7rdlDew7A _bLA5sp_vEeqYV7rdlDew7A _bLA5tp_vEeqYV7rdlDew7A _bLA5tZ_vEeqYV7rdlDew7A _iw_MkJ_vEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_eF26MJ_vEeqYV7rdlDew7A" name="Cam" represents="_sbOYoZ3_Eeqt0rI1Pp0uyQ" coveredBy="_iw_MkJ_vEeqYV7rdlDew7A _wouYcZ_vEeqYV7rdlDew7A _wou_gp_vEeqYV7rdlDew7A _wouYdZ_vEeqYV7rdlDew7A _wouYc5_vEeqYV7rdlDew7A _wou_gJ_vEeqYV7rdlDew7A _wouYdp_vEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_fZyAMJ_vEeqYV7rdlDew7A" name="Mic" represents="_sbOYoZ3_Eeqt0rI1Pp0uyQ" coveredBy="_iw_MkJ_vEeqYV7rdlDew7A _zlZk8p_vEeqYV7rdlDew7A _zlaMB5_vEeqYV7rdlDew7A _zlaMA5_vEeqYV7rdlDew7A _zlaMAZ_vEeqYV7rdlDew7A _zlaMBZ_vEeqYV7rdlDew7A _zlaMBJ_vEeqYV7rdlDew7A"/>
+        <lifeline xmi:id="_iC-QAJ_vEeqYV7rdlDew7A" name="RoomLock" represents="_sbOYoZ3_Eeqt0rI1Pp0uyQ" coveredBy="_iw_MkJ_vEeqYV7rdlDew7A _1gsM8p_vEeqYV7rdlDew7A _1gs0B5_vEeqYV7rdlDew7A _1gs0A5_vEeqYV7rdlDew7A _1gs0AZ_vEeqYV7rdlDew7A _1gs0BZ_vEeqYV7rdlDew7A _1gs0BJ_vEeqYV7rdlDew7A"/>
+        <message xmi:id="_bLASoJ_vEeqYV7rdlDew7A" name="ChangeState" receiveEvent="_bLA5sp_vEeqYV7rdlDew7A" sendEvent="_bLA5sJ_vEeqYV7rdlDew7A" signature="_T396sJ3-Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_bLA5up_vEeqYV7rdlDew7A" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="On"/>
+        </message>
+        <message xmi:id="_wotxYJ_vEeqYV7rdlDew7A" name="ChangeState" receiveEvent="_wouYc5_vEeqYV7rdlDew7A" sendEvent="_wouYcZ_vEeqYV7rdlDew7A" signature="_2s0kQp3_Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_wou_hJ_vEeqYV7rdlDew7A" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="Off"/>
+        </message>
+        <message xmi:id="_zlZk8J_vEeqYV7rdlDew7A" name="ChangeState" receiveEvent="_zlaMAZ_vEeqYV7rdlDew7A" sendEvent="_zlZk8p_vEeqYV7rdlDew7A" signature="_2s0kQp3_Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_zlaMCZ_vEeqYV7rdlDew7A" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="Off"/>
+        </message>
+        <message xmi:id="_1gsM8J_vEeqYV7rdlDew7A" name="ChangeState" receiveEvent="_1gs0AZ_vEeqYV7rdlDew7A" sendEvent="_1gsM8p_vEeqYV7rdlDew7A" signature="_2s0kQp3_Eeqt0rI1Pp0uyQ">
+          <argument xmi:type="uml:LiteralString" xmi:id="_1gtbEJ_vEeqYV7rdlDew7A" name="ChangeState" type="_T37ecJ3-Eeqt0rI1Pp0uyQ" value="On"/>
+        </message>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_vhvesJq_EeqHEMN7vqK8zg" name="Env"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_42EJwJq_EeqHEMN7vqK8zg" name="Screen">
+      <ownedOperation xmi:id="_7Vk64J25Eeqt0rI1Pp0uyQ" name="HelpBPressed"/>
+      <ownedOperation xmi:id="_4ATZcJ2_Eeqt0rI1Pp0uyQ" name="MentalHelpBPressed"/>
+      <ownedOperation xmi:id="_23yE1J4EEeqt0rI1Pp0uyQ" name="DistressBPressed"/>
+      <ownedOperation xmi:id="_cnW9Y56mEeqkSp4PYlS34w" name="PowerBPressed"/>
+      <ownedOperation xmi:id="_QyV6YJ6qEeqkSp4PYlS34w" name="NurseApprovedDistressSignal"/>
+      <ownedOperation xmi:id="_YOoIcZ_sEeqYV7rdlDew7A" name="ChangeScreen">
+        <ownedParameter xmi:id="_YOoIc5_sEeqYV7rdlDew7A" type="_T37ecJ3-Eeqt0rI1Pp0uyQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RrjsIJ2_Eeqt0rI1Pp0uyQ" name="Mode">
+      <ownedOperation xmi:id="_obu4Up2_Eeqt0rI1Pp0uyQ" name="ChangeState">
+        <ownedParameter xmi:id="_obvfYZ2_Eeqt0rI1Pp0uyQ" type="_obu4UJ2_Eeqt0rI1Pp0uyQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_T396sJ3-Eeqt0rI1Pp0uyQ" name="ChangeState">
+        <ownedParameter xmi:id="_T396sp3-Eeqt0rI1Pp0uyQ" type="_T37ecJ3-Eeqt0rI1Pp0uyQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_oKmGYZ3-Eeqt0rI1Pp0uyQ" name="PrivacyModeBPressed">
+        <ownedParameter xmi:id="_oKmGY53-Eeqt0rI1Pp0uyQ" type="_T37ecJ3-Eeqt0rI1Pp0uyQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_xJJsV5_sEeqYV7rdlDew7A" name="setOff"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_obu4UJ2_Eeqt0rI1Pp0uyQ" name="int"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T37ecJ3-Eeqt0rI1Pp0uyQ" name="String"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sbOYoJ3_Eeqt0rI1Pp0uyQ" name="Component">
+      <ownedOperation xmi:id="_2s0kQp3_Eeqt0rI1Pp0uyQ" name="ChangeState">
+        <ownedParameter xmi:id="_2s1LUZ3_Eeqt0rI1Pp0uyQ" type="_T37ecJ3-Eeqt0rI1Pp0uyQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ZEZkwZ_qEeqYV7rdlDew7A" name="setOn">
+        <ownedParameter xmi:id="_ZEZkw5_qEeqYV7rdlDew7A" type="_T37ecJ3-Eeqt0rI1Pp0uyQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTnJ05_rEeqYV7rdlDew7A" name="setOff"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gKU7EJ_pEeqYV7rdlDew7A" name="Button">
+      <ownedOperation xmi:id="_ozlP4J_pEeqYV7rdlDew7A" name="Press"/>
+    </packagedElement>
+    <profileApplication xmi:id="_st6sMZq_EeqHEMN7vqK8zg">
+      <eAnnotations xmi:id="_st6sMpq_EeqHEMN7vqK8zg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgktjEeOIUs0KoNYPKA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/playgoResource/resources/profiles/visual.profile.uml#_UYHmgEtjEeOIUs0KoNYPKA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_st6sM5q_EeqHEMN7vqK8zg">
+      <eAnnotations xmi:id="_st6sNJq_EeqHEMN7vqK8zg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8ktjEeOIUs0KoNYPKA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/playgoResource/resources/profiles/LSC.profile.uml#_UXHg8EtjEeOIUs0KoNYPKA"/>
+    </profileApplication>
+  </uml:Model>
+  <LSC:Collaboration xmi:id="_swjwgJq_EeqHEMN7vqK8zg" base_Collaboration="_subpkJq_EeqHEMN7vqK8zg" LscId="1589995872136"/>
+  <visual:Interaction xmi:id="_u_6kAZq_EeqHEMN7vqK8zg" base_Interaction="_u_6kAJq_EeqHEMN7vqK8zg" X="20" Y="30" Width="754" Height="611"/>
+  <LSC:Interaction xmi:id="_u_6kApq_EeqHEMN7vqK8zg" base_Interaction="_u_6kAJq_EeqHEMN7vqK8zg" Mode="Universal" LSCCollaboration="_subpkJq_EeqHEMN7vqK8zg" LscId="1589995887169"/>
+  <LSC:Property xmi:id="_vhwFwJq_EeqHEMN7vqK8zg" base_Property="_vhvesZq_EeqHEMN7vqK8zg"/>
+  <LSC:Property xmi:id="_42Ew0Jq_EeqHEMN7vqK8zg" base_Property="_42EJwZq_EeqHEMN7vqK8zg"/>
+  <LSC:Lifeline xmi:id="_us3G4J25Eeqt0rI1Pp0uyQ" base_Lifeline="_urdYsJ25Eeqt0rI1Pp0uyQ" Type="User" PolymorphicScope="Deep" LscId="1590323161678"/>
+  <visual:Lifeline xmi:id="_us3G4Z25Eeqt0rI1Pp0uyQ" base_Lifeline="_urdYsJ25Eeqt0rI1Pp0uyQ" X="20" Y="69" Width="100" Height="502"/>
+  <LSC:Operation xmi:id="_7Vk64Z25Eeqt0rI1Pp0uyQ" base_Operation="_7Vk64J25Eeqt0rI1Pp0uyQ" ActionOnProperty="None"/>
+  <LSC:Property xmi:id="_RrjsIp2_Eeqt0rI1Pp0uyQ" base_Property="_RrjsIZ2_Eeqt0rI1Pp0uyQ"/>
+  <LSC:Operation xmi:id="_obvfYJ2_Eeqt0rI1Pp0uyQ" base_Operation="_obu4Up2_Eeqt0rI1Pp0uyQ" ActionOnProperty="None"/>
+  <LSC:Operation xmi:id="_4ATZcZ2_Eeqt0rI1Pp0uyQ" base_Operation="_4ATZcJ2_Eeqt0rI1Pp0uyQ" ActionOnProperty="None"/>
+  <LSC:Operation xmi:id="_T396sZ3-Eeqt0rI1Pp0uyQ" base_Operation="_T396sJ3-Eeqt0rI1Pp0uyQ" ActionOnProperty="None"/>
+  <LSC:Operation xmi:id="_oKmGYp3-Eeqt0rI1Pp0uyQ" base_Operation="_oKmGYZ3-Eeqt0rI1Pp0uyQ" ActionOnProperty="None"/>
+  <LSC:Interaction xmi:id="_hG8A8Z3_Eeqt0rI1Pp0uyQ" base_Interaction="_hG8A8J3_Eeqt0rI1Pp0uyQ" Mode="Universal" LSCCollaboration="_subpkJq_EeqHEMN7vqK8zg" LscId="1590353135231"/>
+  <visual:Interaction xmi:id="_hG8A8p3_Eeqt0rI1Pp0uyQ" base_Interaction="_hG8A8J3_Eeqt0rI1Pp0uyQ" X="3642" Y="30" Width="528" Height="561"/>
+  <LSC:Lifeline xmi:id="_iI9eoZ3_Eeqt0rI1Pp0uyQ" base_Lifeline="_iI9eoJ3_Eeqt0rI1Pp0uyQ" Type="User" PolymorphicScope="Deep" LscId="1590353142154"/>
+  <visual:Lifeline xmi:id="_iI9eop3_Eeqt0rI1Pp0uyQ" base_Lifeline="_iI9eoJ3_Eeqt0rI1Pp0uyQ" X="35" Y="69" Width="100" Height="452"/>
+  <LSC:Lifeline xmi:id="_juOMQZ3_Eeqt0rI1Pp0uyQ" base_Lifeline="_juOMQJ3_Eeqt0rI1Pp0uyQ" PolymorphicScope="Deep" LscId="1590353152772"/>
+  <visual:Lifeline xmi:id="_juOMQp3_Eeqt0rI1Pp0uyQ" base_Lifeline="_juOMQJ3_Eeqt0rI1Pp0uyQ" X="161" Y="69" Width="133" Height="452"/>
+  <LSC:Message xmi:id="_mM2K0Z3_Eeqt0rI1Pp0uyQ" base_Message="_mM2K0J3_Eeqt0rI1Pp0uyQ" LscId="1590353169405" Operation="_oKmGYZ3-Eeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_mM2K053_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_mM2K0p3_Eeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_mM2x4J3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_mM2K1J3_Eeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_mM2x5J3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_mM2x453_Eeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_mM2x5p3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_mM2x5Z3_Eeqt0rI1Pp0uyQ"/>
+  <LSC:Lifeline xmi:id="_sbJgIZ3_Eeqt0rI1Pp0uyQ" base_Lifeline="_sbJgIJ3_Eeqt0rI1Pp0uyQ" PolymorphicScope="Deep" LscId="1590353211171"/>
+  <visual:Lifeline xmi:id="_sbKHMJ3_Eeqt0rI1Pp0uyQ" base_Lifeline="_sbJgIJ3_Eeqt0rI1Pp0uyQ" X="323" Y="69" Width="51" Height="452"/>
+  <LSC:Property xmi:id="_sbOYop3_Eeqt0rI1Pp0uyQ" base_Property="_sbOYoZ3_Eeqt0rI1Pp0uyQ"/>
+  <LSC:Lifeline xmi:id="_vuHswZ3_Eeqt0rI1Pp0uyQ" base_Lifeline="_vuHswJ3_Eeqt0rI1Pp0uyQ" PolymorphicScope="Deep" LscId="1590353233292"/>
+  <visual:Lifeline xmi:id="_vuHswp3_Eeqt0rI1Pp0uyQ" base_Lifeline="_vuHswJ3_Eeqt0rI1Pp0uyQ" X="380" Y="69" Width="44" Height="452"/>
+  <LSC:Message xmi:id="_2szWIZ3_Eeqt0rI1Pp0uyQ" base_Message="_2szWIJ3_Eeqt0rI1Pp0uyQ" LscId="1590353280130" Operation="_2s0kQp3_Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_2sz9MJ3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_2szWIp3_Eeqt0rI1Pp0uyQ" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_2sz9Mp3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_2sz9MZ3_Eeqt0rI1Pp0uyQ" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_2sz9Np3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_2sz9NZ3_Eeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_2s0kQJ3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_2sz9N53_Eeqt0rI1Pp0uyQ"/>
+  <LSC:Operation xmi:id="_2s1LUJ3_Eeqt0rI1Pp0uyQ" base_Operation="_2s0kQp3_Eeqt0rI1Pp0uyQ" ActionOnProperty="None"/>
+  <LSC:Message xmi:id="_4oltYZ3_Eeqt0rI1Pp0uyQ" base_Message="_4oltYJ3_Eeqt0rI1Pp0uyQ" LscId="1590353293110" Operation="_2s0kQp3_Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_4omUcZ3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_4omUcJ3_Eeqt0rI1Pp0uyQ" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_4omUc53_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_4omUcp3_Eeqt0rI1Pp0uyQ" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_4omUd53_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_4omUdp3_Eeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_4om7gJ3_Eeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_4omUeJ3_Eeqt0rI1Pp0uyQ"/>
+  <LSC:StateInvariant xmi:id="_GiZV0J4AEeqt0rI1Pp0uyQ" base_StateInvariant="_GiYuwJ4AEeqt0rI1Pp0uyQ" Label="" LscId="1590353386413" Temperature="Hot"/>
+  <visual:StateInvariant xmi:id="_GiZV0Z4AEeqt0rI1Pp0uyQ" base_StateInvariant="_GiYuwJ4AEeqt0rI1Pp0uyQ" X="3688" Y="302" Width="397" Height="20"/>
+  <LSC:Interaction xmi:id="_FE8q8Z4BEeqt0rI1Pp0uyQ" base_Interaction="_FE8q8J4BEeqt0rI1Pp0uyQ" Mode="Universal" LSCCollaboration="_subpkJq_EeqHEMN7vqK8zg" LscId="1590353806113"/>
+  <visual:Interaction xmi:id="_FE9SAJ4BEeqt0rI1Pp0uyQ" base_Interaction="_FE8q8J4BEeqt0rI1Pp0uyQ" X="2595" Y="30" Width="495" Height="509"/>
+  <LSC:Lifeline xmi:id="_b-6k8J4EEeqt0rI1Pp0uyQ" base_Lifeline="_b-594J4EEeqt0rI1Pp0uyQ" Type="User" PolymorphicScope="Deep" LscId="1590355248319"/>
+  <visual:Lifeline xmi:id="_b-6k8Z4EEeqt0rI1Pp0uyQ" base_Lifeline="_b-594J4EEeqt0rI1Pp0uyQ" X="20" Y="69" Width="100" Height="400"/>
+  <LSC:Lifeline xmi:id="_woxk4Z4EEeqt0rI1Pp0uyQ" base_Lifeline="_woxk4J4EEeqt0rI1Pp0uyQ" PolymorphicScope="Deep" LscId="1590355386926"/>
+  <visual:Lifeline xmi:id="_woxk4p4EEeqt0rI1Pp0uyQ" base_Lifeline="_woxk4J4EEeqt0rI1Pp0uyQ" X="140" Y="69" Width="148" Height="400"/>
+  <LSC:Message xmi:id="_23w2sZ4EEeqt0rI1Pp0uyQ" base_Message="_23w2sJ4EEeqt0rI1Pp0uyQ" LscId="1590355428763" Operation="_23yE1J4EEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_23xdwZ4EEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_23xdwJ4EEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_23xdw54EEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_23xdwp4EEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_23yE0Z4EEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_23yE0J4EEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_23yE054EEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_23yE0p4EEeqt0rI1Pp0uyQ"/>
+  <LSC:Operation xmi:id="_23yE1Z4EEeqt0rI1Pp0uyQ" base_Operation="_23yE1J4EEeqt0rI1Pp0uyQ" ActionOnProperty="None"/>
+  <LSC:StateInvariant xmi:id="__7aBcZ4EEeqt0rI1Pp0uyQ" base_StateInvariant="__7aBcJ4EEeqt0rI1Pp0uyQ" Label="" LscId="1590355489543"/>
+  <visual:StateInvariant xmi:id="__7aBcp4EEeqt0rI1Pp0uyQ" base_StateInvariant="__7aBcJ4EEeqt0rI1Pp0uyQ" X="2626" Y="252" Width="378" Height="20"/>
+  <LSC:Lifeline xmi:id="_EvnXUZ4FEeqt0rI1Pp0uyQ" base_Lifeline="_EvnXUJ4FEeqt0rI1Pp0uyQ" PolymorphicScope="Deep" LscId="1590355521861"/>
+  <visual:Lifeline xmi:id="_EvnXUp4FEeqt0rI1Pp0uyQ" base_Lifeline="_EvnXUJ4FEeqt0rI1Pp0uyQ" X="302" Y="69" Width="133" Height="400"/>
+  <LSC:Message xmi:id="_LsxWsZ4FEeqt0rI1Pp0uyQ" base_Message="_LsxWsJ4FEeqt0rI1Pp0uyQ" LscId="1590355568539" Operation="_T396sJ3-Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LsxWs54FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_LsxWsp4FEeqt0rI1Pp0uyQ" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LsxWtZ4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_LsxWtJ4FEeqt0rI1Pp0uyQ" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_Lsx9wp4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_Lsx9wZ4FEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_Lsx9xJ4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_Lsx9w54FEeqt0rI1Pp0uyQ"/>
+  <LSC:Interaction xmi:id="_UC2Q0Z4FEeqt0rI1Pp0uyQ" base_Interaction="_UC2Q0J4FEeqt0rI1Pp0uyQ" Mode="Universal" LSCCollaboration="_subpkJq_EeqHEMN7vqK8zg" LscId="1590355624541"/>
+  <visual:Interaction xmi:id="_UC2Q0p4FEeqt0rI1Pp0uyQ" base_Interaction="_UC2Q0J4FEeqt0rI1Pp0uyQ" X="3110" Y="30" Width="512" Height="509"/>
+  <LSC:Lifeline xmi:id="_W6RJ4Z4FEeqt0rI1Pp0uyQ" base_Lifeline="_W6RJ4J4FEeqt0rI1Pp0uyQ" Type="User" PolymorphicScope="Deep" LscId="1590355643774"/>
+  <visual:Lifeline xmi:id="_W6RJ4p4FEeqt0rI1Pp0uyQ" base_Lifeline="_W6RJ4J4FEeqt0rI1Pp0uyQ" X="20" Y="69" Width="100" Height="400"/>
+  <LSC:Lifeline xmi:id="_YGWigZ4FEeqt0rI1Pp0uyQ" base_Lifeline="_YGWigJ4FEeqt0rI1Pp0uyQ" PolymorphicScope="Deep" LscId="1590355651752"/>
+  <visual:Lifeline xmi:id="_YGWigp4FEeqt0rI1Pp0uyQ" base_Lifeline="_YGWigJ4FEeqt0rI1Pp0uyQ" X="140" Y="69" Width="148" Height="400"/>
+  <LSC:Lifeline xmi:id="_mpv6gJ4FEeqt0rI1Pp0uyQ" base_Lifeline="_mpvTcJ4FEeqt0rI1Pp0uyQ" PolymorphicScope="Deep" LscId="1590355749416"/>
+  <visual:Lifeline xmi:id="_mpv6gZ4FEeqt0rI1Pp0uyQ" base_Lifeline="_mpvTcJ4FEeqt0rI1Pp0uyQ" X="316" Y="69" Width="141" Height="400"/>
+  <LSC:Message xmi:id="_uUqXwJ4FEeqt0rI1Pp0uyQ" base_Message="_uUpwsJ4FEeqt0rI1Pp0uyQ" LscId="1590355800892" Operation="_23yE1J4EEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_uUqXwp4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_uUqXwZ4FEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_uUqXxJ4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_uUqXw54FEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_uUq-0p4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_uUq-0Z4FEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_uUq-1J4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_uUq-054FEeqt0rI1Pp0uyQ"/>
+  <LSC:StateInvariant xmi:id="_xBysYZ4FEeqt0rI1Pp0uyQ" base_StateInvariant="_xBysYJ4FEeqt0rI1Pp0uyQ" Label="" LscId="1590355819046"/>
+  <visual:StateInvariant xmi:id="_xBysYp4FEeqt0rI1Pp0uyQ" base_StateInvariant="_xBysYJ4FEeqt0rI1Pp0uyQ" X="3141" Y="252" Width="396" Height="20"/>
+  <LSC:Message xmi:id="_zmF1IJ4FEeqt0rI1Pp0uyQ" base_Message="_zmFOEJ4FEeqt0rI1Pp0uyQ" LscId="1590355836274" Operation="_2s0kQp3_Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_zmF1Ip4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_zmF1IZ4FEeqt0rI1Pp0uyQ" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_zmF1JJ4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_zmF1I54FEeqt0rI1Pp0uyQ" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_zmGcMp4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_zmGcMZ4FEeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_zmGcNJ4FEeqt0rI1Pp0uyQ" base_MessageOccurrenceSpecification="_zmGcM54FEeqt0rI1Pp0uyQ"/>
+  <LSC:Operation xmi:id="_cnXkcJ6mEeqkSp4PYlS34w" base_Operation="_cnW9Y56mEeqkSp4PYlS34w" ActionOnProperty="None"/>
+  <LSC:Interaction xmi:id="_BX0YAJ6oEeqkSp4PYlS34w" base_Interaction="_BXzw8J6oEeqkSp4PYlS34w" Mode="Universal" LSCCollaboration="_subpkJq_EeqHEMN7vqK8zg" LscId="1590425507200"/>
+  <visual:Interaction xmi:id="_BX0YAZ6oEeqkSp4PYlS34w" base_Interaction="_BXzw8J6oEeqkSp4PYlS34w" X="794" Y="30" Width="619" Height="811"/>
+  <visual:Lifeline xmi:id="_D2UawJ6oEeqkSp4PYlS34w" base_Lifeline="_D2TzsJ6oEeqkSp4PYlS34w" X="20" Y="69" Width="100" Height="702"/>
+  <LSC:Lifeline xmi:id="_D2UawZ6oEeqkSp4PYlS34w" base_Lifeline="_D2TzsJ6oEeqkSp4PYlS34w" Type="User" PolymorphicScope="Deep" BindingExpression="" LscId="1590425523820"/>
+  <LSC:Interaction xmi:id="_vec30J6pEeqkSp4PYlS34w" base_Interaction="_vecQwJ6pEeqkSp4PYlS34w" Mode="Universal" LSCCollaboration="_subpkJq_EeqHEMN7vqK8zg" LscId="1590426246094"/>
+  <visual:Interaction xmi:id="_vec30Z6pEeqkSp4PYlS34w" base_Interaction="_vecQwJ6pEeqkSp4PYlS34w" X="1433" Y="30" Width="529" Height="509"/>
+  <visual:Lifeline xmi:id="_zcieAZ6pEeqkSp4PYlS34w" base_Lifeline="_zcieAJ6pEeqkSp4PYlS34w" X="50" Y="69" Width="100" Height="400"/>
+  <LSC:Lifeline xmi:id="_zcieAp6pEeqkSp4PYlS34w" base_Lifeline="_zcieAJ6pEeqkSp4PYlS34w" Type="User" PolymorphicScope="Deep" LscId="1590426272736"/>
+  <LSC:Operation xmi:id="_QyV6YZ6qEeqkSp4PYlS34w" base_Operation="_QyV6YJ6qEeqkSp4PYlS34w" ActionOnProperty="None"/>
+  <LSC:Message xmi:id="_TL3aMJ_hEeqYV7rdlDew7A" base_Message="_TL2zIJ_hEeqYV7rdlDew7A" LscId="1590560059219" Operation="_oKmGYZ3-Eeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_TL4BQZ_hEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_TL4BQJ_hEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_TL4BQ5_hEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_TL4BQp_hEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_TL4BR5_hEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_TL4BRp_hEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_TL4oUZ_hEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_TL4oUJ_hEeqYV7rdlDew7A"/>
+  <LSC:Interaction xmi:id="_2vajgZ_nEeqYV7rdlDew7A" base_Interaction="_2vajgJ_nEeqYV7rdlDew7A" Mode="Universal" LSCCollaboration="_subpkJq_EeqHEMN7vqK8zg" LscId="1590562874808"/>
+  <visual:Interaction xmi:id="_2vajgp_nEeqYV7rdlDew7A" base_Interaction="_2vajgJ_nEeqYV7rdlDew7A" X="1982" Y="30" Width="593" Height="661"/>
+  <LSC:Lifeline xmi:id="_4ryJkZ_nEeqYV7rdlDew7A" base_Lifeline="_4ryJkJ_nEeqYV7rdlDew7A" Type="User" PolymorphicScope="Deep" LscId="1590562887849"/>
+  <visual:Lifeline xmi:id="_4ryJkp_nEeqYV7rdlDew7A" base_Lifeline="_4ryJkJ_nEeqYV7rdlDew7A" X="20" Y="69" Width="100" Height="552"/>
+  <LSC:Property xmi:id="_gKU7Ep_pEeqYV7rdlDew7A" base_Property="_gKU7EZ_pEeqYV7rdlDew7A"/>
+  <LSC:Operation xmi:id="_ozlP4Z_pEeqYV7rdlDew7A" base_Operation="_ozlP4J_pEeqYV7rdlDew7A" ActionOnProperty="None"/>
+  <LSC:Operation xmi:id="_ZEZkwp_qEeqYV7rdlDew7A" base_Operation="_ZEZkwZ_qEeqYV7rdlDew7A" ActionOnProperty="None"/>
+  <LSC:Operation xmi:id="_GTnJ1J_rEeqYV7rdlDew7A" base_Operation="_GTnJ05_rEeqYV7rdlDew7A" ActionOnProperty="None"/>
+  <LSC:Lifeline xmi:id="_EEqJgZ_sEeqYV7rdlDew7A" base_Lifeline="_EEqJgJ_sEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590564682264"/>
+  <visual:Lifeline xmi:id="_EEqJgp_sEeqYV7rdlDew7A" base_Lifeline="_EEqJgJ_sEeqYV7rdlDew7A" X="140" Y="69" Width="147" Height="502"/>
+  <LSC:Message xmi:id="_GnzbsJ_sEeqYV7rdlDew7A" base_Message="_Gny0oJ_sEeqYV7rdlDew7A" LscId="1590564699371" Operation="_ozlP4J_pEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_Gnzbsp_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_GnzbsZ_sEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_GnzbtJ_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_Gnzbs5_sEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_Gn0Cwp_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_Gn0CwZ_sEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_Gn0p0J_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_Gn0Cw5_sEeqYV7rdlDew7A"/>
+  <LSC:Lifeline xmi:id="_MULIoZ_sEeqYV7rdlDew7A" base_Lifeline="_MULIoJ_sEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590564737578"/>
+  <visual:Lifeline xmi:id="_MULIop_sEeqYV7rdlDew7A" base_Lifeline="_MULIoJ_sEeqYV7rdlDew7A" X="307" Y="69" Width="72" Height="502"/>
+  <visual:StateInvariant xmi:id="_N6FWgZ_sEeqYV7rdlDew7A" base_StateInvariant="_N6FWgJ_sEeqYV7rdlDew7A" X="51" Y="252" Width="635" Height="20"/>
+  <LSC:StateInvariant xmi:id="_N6F9kJ_sEeqYV7rdlDew7A" base_StateInvariant="_N6FWgJ_sEeqYV7rdlDew7A" Label="" LscId="1590564748265"/>
+  <LSC:Message xmi:id="_YOm6UJ_sEeqYV7rdlDew7A" base_Message="_YOmTQJ_sEeqYV7rdlDew7A" LscId="1590564817525" Operation="_YOoIcZ_sEeqYV7rdlDew7A" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_YOm6Up_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_YOm6UZ_sEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_YOnhYJ_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_YOm6U5_sEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_YOnhZJ_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_YOnhY5_sEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_YOnhZp_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_YOnhZZ_sEeqYV7rdlDew7A"/>
+  <LSC:Operation xmi:id="_YOoIcp_sEeqYV7rdlDew7A" base_Operation="_YOoIcZ_sEeqYV7rdlDew7A" ActionOnProperty="None"/>
+  <LSC:Lifeline xmi:id="_glZmIZ_sEeqYV7rdlDew7A" base_Lifeline="_glZmIJ_sEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590564873602"/>
+  <visual:Lifeline xmi:id="_glZmIp_sEeqYV7rdlDew7A" base_Lifeline="_glZmIJ_sEeqYV7rdlDew7A" X="399" Y="69" Width="140" Height="502"/>
+  <LSC:Lifeline xmi:id="_jWfNsZ_sEeqYV7rdlDew7A" base_Lifeline="_jWfNsJ_sEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590564892171"/>
+  <visual:Lifeline xmi:id="_jWfNsp_sEeqYV7rdlDew7A" base_Lifeline="_jWfNsJ_sEeqYV7rdlDew7A" X="559" Y="69" Width="133" Height="502"/>
+  <LSC:Message xmi:id="_rfNoUJ_sEeqYV7rdlDew7A" base_Message="_rfNBQJ_sEeqYV7rdlDew7A" LscId="1590564946773" Operation="_ZEZkwZ_qEeqYV7rdlDew7A" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_rfNoUp_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_rfNoUZ_sEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_rfNoVJ_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_rfNoU5_sEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_rfOPYZ_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_rfOPYJ_sEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_rfOPY5_sEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_rfOPYp_sEeqYV7rdlDew7A"/>
+  <LSC:Operation xmi:id="_xJJsWJ_sEeqYV7rdlDew7A" base_Operation="_xJJsV5_sEeqYV7rdlDew7A" ActionOnProperty="None"/>
+  <LSC:Lifeline xmi:id="_KkdCAZ_tEeqYV7rdlDew7A" base_Lifeline="_KkdCAJ_tEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590565155360"/>
+  <visual:Lifeline xmi:id="_KkdCAp_tEeqYV7rdlDew7A" base_Lifeline="_KkdCAJ_tEeqYV7rdlDew7A" X="305" Y="69" Width="293" Height="702"/>
+  <LSC:Message xmi:id="_LmFeIZ_tEeqYV7rdlDew7A" base_Message="_LmFeIJ_tEeqYV7rdlDew7A" LscId="1590565162242" Operation="_ozlP4J_pEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LmGFMJ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_LmFeIp_tEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LmGFMp_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_LmGFMZ_tEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LmGFNp_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_LmGFNZ_tEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LmGFOJ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_LmGFN5_tEeqYV7rdlDew7A"/>
+  <LSC:Lifeline xmi:id="_bX5xEJ_tEeqYV7rdlDew7A" base_Lifeline="_bX5KAJ_tEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590565268129"/>
+  <visual:Lifeline xmi:id="_bX5xEZ_tEeqYV7rdlDew7A" base_Lifeline="_bX5KAJ_tEeqYV7rdlDew7A" X="133" Y="69" Width="141" Height="702"/>
+  <LSC:Message xmi:id="_gqJt0J_tEeqYV7rdlDew7A" base_Message="_gqJGwJ_tEeqYV7rdlDew7A" LscId="1590565303597" Operation="_ZEZkwZ_qEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_gqJt0p_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_gqJt0Z_tEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_gqJt1J_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_gqJt05_tEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_gqKU4Z_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_gqKU4J_tEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_gqKU45_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_gqKU4p_tEeqYV7rdlDew7A"/>
+  <visual:StateInvariant xmi:id="_jTUvgZ_tEeqYV7rdlDew7A" base_StateInvariant="_jTUvgJ_tEeqYV7rdlDew7A" X="825" Y="302" Width="461" Height="20"/>
+  <LSC:StateInvariant xmi:id="_jTUvgp_tEeqYV7rdlDew7A" base_StateInvariant="_jTUvgJ_tEeqYV7rdlDew7A" Label="" LscId="1590565321336"/>
+  <visual:StateInvariant xmi:id="_rjwUoJ_tEeqYV7rdlDew7A" base_StateInvariant="_rjvtkJ_tEeqYV7rdlDew7A" X="825" Y="402" Width="461" Height="20"/>
+  <LSC:StateInvariant xmi:id="_rjwUoZ_tEeqYV7rdlDew7A" base_StateInvariant="_rjvtkJ_tEeqYV7rdlDew7A" Label="" LscId="1590565376746"/>
+  <LSC:Message xmi:id="_vnYiIZ_tEeqYV7rdlDew7A" base_Message="_vnYiIJ_tEeqYV7rdlDew7A" LscId="1590565403970" Operation="_ZEZkwZ_qEeqYV7rdlDew7A" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_vnZJMZ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_vnZJMJ_tEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_vnZJM5_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_vnZJMp_tEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_vnZwQZ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_vnZwQJ_tEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_vnZwQ5_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_vnZwQp_tEeqYV7rdlDew7A"/>
+  <visual:StateInvariant xmi:id="_zK1awZ_tEeqYV7rdlDew7A" base_StateInvariant="_zK1awJ_tEeqYV7rdlDew7A" X="825" Y="552" Width="461" Height="20"/>
+  <LSC:StateInvariant xmi:id="_zK1awp_tEeqYV7rdlDew7A" base_StateInvariant="_zK1awJ_tEeqYV7rdlDew7A" Label="" LscId="1590565427820"/>
+  <LSC:Message xmi:id="_2WdpQZ_tEeqYV7rdlDew7A" base_Message="_2WdpQJ_tEeqYV7rdlDew7A" LscId="1590565449172" Operation="_ozlP4J_pEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_2WeQUJ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_2WdpQp_tEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_2WeQUp_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_2WeQUZ_tEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_2WeQVp_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_2WeQVZ_tEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_2WeQWJ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_2WeQV5_tEeqYV7rdlDew7A"/>
+  <visual:StateInvariant xmi:id="_3EQjYJ_tEeqYV7rdlDew7A" base_StateInvariant="_3EP8UJ_tEeqYV7rdlDew7A" X="825" Y="652" Width="461" Height="20"/>
+  <LSC:StateInvariant xmi:id="_3EQjYZ_tEeqYV7rdlDew7A" base_StateInvariant="_3EP8UJ_tEeqYV7rdlDew7A" Label="" LscId="1590565453974"/>
+  <LSC:Message xmi:id="_4T5mUJ_tEeqYV7rdlDew7A" base_Message="_4T4_QJ_tEeqYV7rdlDew7A" LscId="1590565462325" Operation="_GTnJ05_rEeqYV7rdlDew7A" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_4T5mUp_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_4T5mUZ_tEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_4T6NYJ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_4T5mU5_tEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_4T6NZJ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_4T6NY5_tEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_4T60cJ_tEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_4T6NZZ_tEeqYV7rdlDew7A"/>
+  <LSC:Lifeline xmi:id="_B1LS0Z_vEeqYV7rdlDew7A" base_Lifeline="_B1LS0J_vEeqYV7rdlDew7A" PolymorphicScope="Deep" BindingExpression="" LscId="1590565955709"/>
+  <visual:Lifeline xmi:id="_B1LS0p_vEeqYV7rdlDew7A" base_Lifeline="_B1LS0J_vEeqYV7rdlDew7A" X="170" Y="69" Width="140" Height="400"/>
+  <LSC:Message xmi:id="_DrdfAZ_vEeqYV7rdlDew7A" base_Message="_DrdfAJ_vEeqYV7rdlDew7A" LscId="1590565968112" Operation="_ozlP4J_pEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_DreGEZ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_DreGEJ_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_DreGE5_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_DreGEp_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_DreGF5_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_DreGFp_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_DreGGZ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_DreGGJ_vEeqYV7rdlDew7A"/>
+  <LSC:Lifeline xmi:id="_H771sJ_vEeqYV7rdlDew7A" base_Lifeline="_H77OoJ_vEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590565996683"/>
+  <visual:Lifeline xmi:id="_H771sZ_vEeqYV7rdlDew7A" base_Lifeline="_H77OoJ_vEeqYV7rdlDew7A" X="335" Y="69" Width="133" Height="400"/>
+  <visual:StateInvariant xmi:id="_IwAW8Z_vEeqYV7rdlDew7A" base_StateInvariant="_IwAW8J_vEeqYV7rdlDew7A" X="1494" Y="252" Width="381" Height="20"/>
+  <LSC:StateInvariant xmi:id="_IwAW8p_vEeqYV7rdlDew7A" base_StateInvariant="_IwAW8J_vEeqYV7rdlDew7A" Label="" LscId="1590566002143"/>
+  <LSC:Message xmi:id="_LuIU8Z_vEeqYV7rdlDew7A" base_Message="_LuIU8J_vEeqYV7rdlDew7A" LscId="1590566022079" Operation="_T396sJ3-Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LuIU85_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_LuIU8p_vEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LuIU9Z_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_LuIU9J_vEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LuI8AZ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_LuI8AJ_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_LuI8A5_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_LuI8Ap_vEeqYV7rdlDew7A"/>
+  <LSC:Lifeline xmi:id="_Yhgg0Z_vEeqYV7rdlDew7A" base_Lifeline="_Yhgg0J_vEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590566107997"/>
+  <visual:Lifeline xmi:id="_Yhgg0p_vEeqYV7rdlDew7A" base_Lifeline="_Yhgg0J_vEeqYV7rdlDew7A" X="131" Y="69" Width="134" Height="552"/>
+  <LSC:Message xmi:id="_bLASoZ_vEeqYV7rdlDew7A" base_Message="_bLASoJ_vEeqYV7rdlDew7A" LscId="1590566125770" Operation="_T396sJ3-Eeqt0rI1Pp0uyQ"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_bLA5sZ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_bLA5sJ_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_bLA5s5_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_bLA5sp_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_bLA5t5_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_bLA5tp_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_bLA5uZ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_bLA5uJ_vEeqYV7rdlDew7A"/>
+  <LSC:Lifeline xmi:id="_eF26MZ_vEeqYV7rdlDew7A" base_Lifeline="_eF26MJ_vEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590566145363"/>
+  <visual:Lifeline xmi:id="_eF26Mp_vEeqYV7rdlDew7A" base_Lifeline="_eF26MJ_vEeqYV7rdlDew7A" X="276" Y="69" Width="52" Height="552"/>
+  <LSC:Lifeline xmi:id="_fZynQJ_vEeqYV7rdlDew7A" base_Lifeline="_fZyAMJ_vEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590566154164"/>
+  <visual:Lifeline xmi:id="_fZynQZ_vEeqYV7rdlDew7A" base_Lifeline="_fZyAMJ_vEeqYV7rdlDew7A" X="348" Y="69" Width="43" Height="552"/>
+  <LSC:Lifeline xmi:id="_iC-3EJ_vEeqYV7rdlDew7A" base_Lifeline="_iC-QAJ_vEeqYV7rdlDew7A" PolymorphicScope="Deep" LscId="1590566171905"/>
+  <visual:Lifeline xmi:id="_iC-3EZ_vEeqYV7rdlDew7A" base_Lifeline="_iC-QAJ_vEeqYV7rdlDew7A" X="411" Y="69" Width="109" Height="552"/>
+  <visual:StateInvariant xmi:id="_iw_MkZ_vEeqYV7rdlDew7A" base_StateInvariant="_iw_MkJ_vEeqYV7rdlDew7A" X="2013" Y="302" Width="475" Height="20"/>
+  <LSC:StateInvariant xmi:id="_iw_Mkp_vEeqYV7rdlDew7A" base_StateInvariant="_iw_MkJ_vEeqYV7rdlDew7A" Label="" LscId="1590566176729"/>
+  <LSC:Message xmi:id="_wouYcJ_vEeqYV7rdlDew7A" base_Message="_wotxYJ_vEeqYV7rdlDew7A" LscId="1590566269815" Operation="_2s0kQp3_Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_wouYcp_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_wouYcZ_vEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_wouYdJ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_wouYc5_vEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_wou_gZ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_wou_gJ_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_wou_g5_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_wou_gp_vEeqYV7rdlDew7A"/>
+  <LSC:Message xmi:id="_zlZk8Z_vEeqYV7rdlDew7A" base_Message="_zlZk8J_vEeqYV7rdlDew7A" LscId="1590566289599" Operation="_2s0kQp3_Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_zlaMAJ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_zlZk8p_vEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_zlaMAp_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_zlaMAZ_vEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_zlaMBp_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_zlaMBZ_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_zlaMCJ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_zlaMB5_vEeqYV7rdlDew7A"/>
+  <LSC:Message xmi:id="_1gsM8Z_vEeqYV7rdlDew7A" base_Message="_1gsM8J_vEeqYV7rdlDew7A" LscId="1590566302527" Operation="_2s0kQp3_Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_1gs0AJ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_1gsM8p_vEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_1gs0Ap_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_1gs0AZ_vEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_1gs0Bp_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_1gs0BZ_vEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_1gs0CJ_vEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_1gs0B5_vEeqYV7rdlDew7A"/>
+  <LSC:Message xmi:id="_Qsw8sZ_wEeqYV7rdlDew7A" base_Message="_Qsw8sJ_wEeqYV7rdlDew7A" LscId="1590566484987" Operation="_T396sJ3-Eeqt0rI1Pp0uyQ" Execution="Execute" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_QsxjwJ_wEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_Qsw8sp_wEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_Qsxjwp_wEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_QsxjwZ_wEeqYV7rdlDew7A" Temperature="Hot"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_Qsxjxp_wEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_QsxjxZ_wEeqYV7rdlDew7A"/>
+  <LSC:MessageOccurrenceSpecification xmi:id="_QsxjyJ_wEeqYV7rdlDew7A" base_MessageOccurrenceSpecification="_Qsxjx5_wEeqYV7rdlDew7A"/>
+</xmi:XMI>
